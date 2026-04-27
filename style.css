@@ -12,15 +12,17 @@
     font-family: "Comic Relief", sans-serif;
 }
 
+
 .pass-box {
     background: #ffffff;
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 0 30px rgba(0, 0 , 0, 0.08);
     border-radius: 16px;
     padding: 30px 40px;
     text-align: center;
     max-width: 500px;
 }
 
+h
 .pass-box h2 {
     margin-bottom: 20px;
     color: #111;
