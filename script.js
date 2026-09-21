@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const nums = document.querySelectorAll('.num-pad .num');
 
     // đổi pass ở đây
-    const CORRECT_PASS = "0611";
+    const CORRECT_PASS = "1011";
 
     nums.forEach(num => {
         num.addEventListener('click', () => {
@@ -390,11 +390,11 @@ document.addEventListener('DOMContentLoaded', () => {
     function updateCountdown() {
         const now = new Date();
         const currentYear = now.getFullYear();
-        let target = new Date(`${currentYear}-11-06T00:00:00`);
+        let target = new Date(`${currentYear}-11-10T00:00:00`);
 
         // Nếu sinh nhật năm nay qua rồi => đếm cho năm sau
         if (now > target) {
-            target = new Date(`${currentYear + 1}-11-06T00:00:00`);
+            target = new Date(`${currentYear + 1}-11-10T00:00:00`);
         }
 
         const diff = target - now;
