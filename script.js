@@ -175,7 +175,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // sample wish parts
     const wishStarts = [
         "Chúc mừng sinh nhật!", "Happy b-day!", "Mừng tuổi mới!",
-        "Ngày đặc biệt của cậu", "Gửi tới Khánh Huyền những lời chúc", "Sinh nhật Khánh Huyền"
+        "Ngày đặc biệt của cậu", "Gửi tới Lê Nguyễn Tuệ Lâm những lời chúc", "Sinh nhật Lê Nguyễn Tuệ Lâm"
     ];
     const wishMiddles = [
         "tuổi mới thật rực rỡ", "mọi điều suôn sẻ", "những thành công rực rỡ",
@@ -366,16 +366,16 @@ document.addEventListener('DOMContentLoaded', () => {
         let message = "";
 
         if (hour >= 5 && hour < 11) {
-            message = "Chào buổi sáng, Khánh Huyền ☀️! Chúc cậu một ngày mới tràn năng lượng, luôn mỉm cười và đừng quên ăn sáng đấy nhé 💕";
+            message = "Chào buổi sáng, Lê Nguyễn Tuệ Lâm ☀️! Chúc cậu một ngày mới tràn năng lượng, luôn mỉm cười và đừng quên ăn sáng đấy nhé 💕";
         }
         else if (hour >= 11 && hour < 17) {
-            message = "Buổi chiều vui vẻ nha Khánh Huyền 🌸! Nhớ uống đủ nước, ăn đủ no, đừng học căng quá, nhớ nghỉ giữa giờ nha 💖";
+            message = "Buổi chiều vui vẻ nha Lê Nguyễn Tuệ Lâm 🌸! Nhớ uống đủ nước, ăn đủ no, đừng học căng quá, nhớ nghỉ giữa giờ nha 💖";
         }
         else if (hour >= 17 && hour < 21) {
-            message = "Tối an lành nè 🌆! Hy vọng Khánh Huyền có buổi tối thật chill, ăn ngon và làm bài thiệc thư giãn nhaaaa ✨";
+            message = "Tối an lành nè 🌆! Hy vọng Lê Nguyễn Tuệ Lâm có buổi tối thật chill, ăn ngon và làm bài thiệc thư giãn nhaaaa ✨";
         }
         else {
-            message = "Khuya rồi đó Khánh Huyền ơiii 🌙💤 — ngủ sớm đi nha, sáng mai còn dậy sớm nè, đừng thức khuya làm bài tập nữa, không tốt cho sức khỏe đâu 😴💗";
+            message = "Khuya rồi đó Lê Nguyễn Tuệ Lâm ơiii 🌙💤 — ngủ sớm đi nha, sáng mai còn dậy sớm nè, đừng thức khuya làm bài tập nữa, không tốt cho sức khỏe đâu 😴💗";
         }
         if (greetEl) greetEl.textContent = message;
     }
@@ -386,7 +386,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // cập nhật lại mỗi phút
     setInterval(dailyWish, 60000);
 
-    // 🎂 Countdown to Bảo Anh's Birthday
+    // 🎂 Countdown to Lê Nguyễn Tuệ Lâm's Birthday
     function updateCountdown() {
         const now = new Date();
         const currentYear = now.getFullYear();
@@ -415,9 +415,9 @@ document.addEventListener('DOMContentLoaded', () => {
         const msg = document.getElementById('birthday-msg');
         if (msg) {
             if (days === 0 && hours === 0 && minutes === 0 && seconds === 0) {
-                msg.textContent = "🎉 Hôm nay là sinh nhật của Khánh Huyền rồi đó! Chúc mừng sinh nhật nhaaa 🥳💖";
+                msg.textContent = "🎉 Hôm nay là sinh nhật của Lê Nguyễn Tuệ Lâm rồi đó! Chúc mừng sinh nhật nhaaa 🥳💖";
             } else {
-                msg.textContent = `Còn ${days} ngày nữa là tới sinh nhật của Khánh Huyền rồi đó 😚`;
+                msg.textContent = `Còn ${days} ngày nữa là tới sinh nhật của Lê Nguyễn Tuệ Lâm rồi đó 😚`;
             }
         }
     }
@@ -569,7 +569,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             window.addEventListener("deviceorientation", handleGyro);
                             alert("Đã bật nghiêng 3D!");
                         } else {
-                            alert("Khánh Huyền cần cho phép truy cập cảm biến.");
+                            alert("Lê Nguyễn Tuệ Lâm cần cho phép truy cập cảm biến.");
                         }
                     });
 
